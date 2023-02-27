@@ -1,0 +1,4 @@
+<odoo>
+    <!-- This Menu Item must have a parent and an action -->
+    <menuitem id="car_service_menu" name="Car Service" action="" sequence="1"/>
+</odoo>

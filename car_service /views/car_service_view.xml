@@ -1,0 +1,24 @@
+<odoo>
+    <record id="car_service_view_form" model="ir.ui.view">
+       <field name="name">car.service.view.form</field>
+       <field name="model">car.service</field>
+       <field name="arch" type="xml">
+           <form>
+               <sheet>
+                   <group>
+                       <field name="name"/>
+                       <field name="description"/>
+                   </group>
+               </sheet>
+           </form>
+       </field>
+   </record>
+    <record id="car_service_view_action" model="ir.actions.act_window">
+        <field name="name">car.service.view.action</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">car.service</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+
+</odoo>
